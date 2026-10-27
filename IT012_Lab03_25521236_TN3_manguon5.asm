@@ -11,7 +11,7 @@ main:
     li   $v0, 4              # dich vu 4: in chuoi
     la   $a0, msg            # doi so: dia chi cua msg
     syscall
-    li   $v0, 4              # dich vu 1: in so nguyen
+    li   $v0, 1              # dich vu 1: in so nguyen
     add  $a0, $t0, $zero     # doi so: so can in
     syscall
     li   $v0, 4              # in xuong dong
